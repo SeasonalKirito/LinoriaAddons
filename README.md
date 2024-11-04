@@ -5,7 +5,7 @@ A Collection of Addons i made for the LinoriaLib which is currently one
 
 ### Engine
 ```lua
-local Engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/SeasonalKirito/LinoriaAddons/refs/heads/main/addons/KeySystem.lua"))()
+local Engine = loadstring(game:HttpGet("https://raw.githubusercontent.com/SeasonalKirito/LinoriaAddons/main/addons/KeySystem.lua"))()
 ```
 ---
 ### Functions.Init()
