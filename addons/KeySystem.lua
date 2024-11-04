@@ -51,7 +51,7 @@ function Engine.Functions.Init(...)
 	local description = params.description or "Default Description"
 	local callback = params.callback or function() end
 
-	local KeySystem = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+	local KeySystem = Instance.new("ScreenGui", gethui());
 	local Root = Instance.new("Frame", KeySystem);
 	local Frame_1 = Instance.new("Frame", Root);
 	local Title = Instance.new("TextLabel", Frame_1);
