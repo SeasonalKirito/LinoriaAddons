@@ -34,3 +34,11 @@ Engine.Functions.Log({
 })
 ```
 ---
+### Functions.Unload()
+- callback: function to be ran before unloaded
+```lua
+Engine.Functions.Unload(function()
+	print("Hello World!")
+end)
+```
+---
